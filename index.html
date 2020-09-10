@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Statistics</title>
+  <script src="https://kit.fontawesome.com/ca033e2644.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="public/semantic/semantic.min.css">
+  <link rel="stylesheet" href="public/bulma-0.9.0/css/bulma.css">
+  <link rel="stylesheet" href="public/blocs.css">
+  <link rel="stylesheet" href="public/detail.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+</head>
+<body>
+  <section style="display: flex;">
+    <!-- Navigation sidebar Start -->
+    <aside>
+
+      <!-- Pearson Specter Litt -->
+      <div class="my-component-aside-title">
+
+        <h2 class="ui header " style="color: white; font-size: 21.5px">Pearson Specter Litt</h2>
+
+        <div class="ui simple dropdown my-component-dropdown">Mike Ross <i class="dropdown icon" id ="my_dropdown" style="position:absolute; right: 0; top: 4px"></i>
+          <div class="menu">
+              <div class="item"><i class="fas fa-user" ></i>Account settings</div>
+              <div class="item"><i class="fas fa-plus-circle" ></i>New organization</div>
+              <div class="item"> <i class="fas fa-sign-out-alt"></i>Log out</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pearson Specter Litt -->
+      <div class="menu">
+        <ul class="menu-list my-component-menu-list">
+          <li><a class="my-component-menu-list-a p-3"><i class="fas fa-home"></i> Get started </a></li>
+          <li><a class="my-component-menu-list-a p-3"><i class="fas fa-money-check-alt" ></i>Transactions</a></li>
+          <li><a class="my-component-menu-list-active p-3"><i class="fas fa-chart-bar" ></i>Statistics</a></li>
+          <li><a class="my-component-menu-list-a p-3"><i class="fas fa-sliders-h" ></i>Settings</a></li>
+          <li><a class="my-component-menu-list-a p-3"><i class="far fa-question-circle" ></i>Help center</a></li>
+        </ul>
+      </div>
+
+    </aside>
+
+
+    <!--###############-->
+    <!-- Main Page Start -->
+    <!--###############-->
+
+    <article>
+
+      <!--###############-->
+      <!-- Navbar Statistics -->
+      <!--###############-->
+
+      <div class="shadow-sm p-3  bg-white rounded title-navabar" >Statistics</div>
+
+      <!--###############-->
+      <!-- Filters Days/Weeks/Months... -->
+      <!--###############-->
+
+      <div class="my-classe-menus">
+      <div class="my-classe-menu1" style="border:0.5px solid rgba(0,0,0,0.2) ">
+        <ul class="nav">
+          <!-- Days -->
+          <li class="nav-item"><a class="nav-link disabled my-filter-day" href="#">Days</a></li>
+          <!-- Weeks -->
+          <li class="nav-item "><a class="nav-link disabled my-filter-day " href="#">Weeks</a></li>
+          <!-- Months -->
+          <li class="nav-item"><a class="nav-link is-active  my-filter-day-is-active " href="#">Months</a></li>
+          <!-- Quarters -->
+          <li class="nav-item"><a class="nav-link disabled  my-filter-day"  href="#" >Quarters </a></li>
+          <!-- Years -->
+          <li class="nav-item"><a class="nav-link disabled  my-filter-day" href="#">Years</a></li>
+          <!-- Customs.. -->
+          <li class="nav-item"><a class="nav-link disabled " href="#">Customs..</a></li>
+        </ul>
+      </div>
+
+        <!--###############-->
+        <!-- Months sidebar -->
+        <!--###############-->
+
+        <div class="my-classe-menu2 " id="block_september" >
+        <div class="ui menu shadow-none pb-0 pt-0 my-div-months" id="container">
+
+          <!-- January -->
+          <a class="item my-month-padding" ><h6 id="slideRight" class="ui header">January <div class="sub header my-month-fontsize">2019</div> </h6></a>
+
+          <!-- February -->
+          <a class="item my-month-padding" ><h6  class="ui header">February <div class="sub header my-month-fontsize">2019</div> </h6></a>
+
+          <!-- April -->
+          <a class="item my-month-padding" ><h6  class="ui header">April <div class="sub header my-month-fontsize">2019</div> </h6></a>
+
+          <!-- May -->
+          <a class="item my-month-padding" ><h6  class="ui header">May <div class="sub header my-month-fontsize">2019</div> </h6></a>
+
+          <!-- June -->
+          <a class="item my-month-padding"><h6  class="ui header">June <div class="sub header my-month-fontsize">2019</div> </h6></a>
+
+          <!-- July -->
+          <a class="item my-month-padding"><h6  class="ui header">July <div class="sub header my-month-fontsize">2019</div> </h6></a>
+
+          <!-- August -->
+          <a class="item my-month-padding" ><h6  class="ui header">August <div class="sub header my-month-fontsize">2019</div> </h6></a>
+
+          <!-- September -->
+          <a class="item my-month-padding"><h6  class="ui header">September <div class="sub header my-month-fontsize">2019</div> </h6></a>
+
+          <!-- October -->
+          <a class="item my-month-padding "><h6  class="ui header">October <div class="sub header my-month-fontsize">2019</div> </h6></a>
+
+          <!-- November -->
+          <a class="item my-month-padding"><h6  class="ui header">November <div class="sub header my-month-fontsize">2019</div> </h6></a>
+
+          <!-- December -->
+          <a class="item my-month-padding"><h6  class="ui header">December <div class="sub header my-month-fontsize">2019</div> </h6></a>
+
+          <!-- January -->
+          <a class="item my-month-padding" ><h6  class="ui header">January <div class="sub header my-month-fontsize">2020</div> </h6></a>
+
+          <!-- February -->
+          <a class="item my-month-padding"><h6  class="ui header">February <div class="sub header my-month-fontsize">2020</div> </h6></a>
+
+          <!-- April -->
+          <a class="item my-month-padding"><h6  class="ui header">April <div class="sub header my-month-fontsize">2020</div> </h6></a>
+
+          <!-- May -->
+          <a class="item my-month-padding"><h6  class="ui header">May <div class="sub header my-month-fontsize">2020</div> </h6></a>
+
+          <!-- June -->
+          <a class="item my-month-padding"><h6  class="ui header">June <div class="sub header my-month-fontsize">2020</div> </h6></a>
+
+          <!-- July -->
+          <a class="item my-month-padding"><h6  class="ui header">July <div class="sub header my-month-fontsize">2020</div> </h6></a>
+
+          <!-- August -->
+          <a class="item my-month-padding"><h6  class="ui header">August <div class="sub header my-month-fontsize">2020</div> </h6></a>
+
+          <!-- September -->
+          <a class="item my-month-padding"><h6  id="slideLeft"  class="ui header " style="height:38px" >  <div class="content my-class-is-active"> September<div class="sub header my-month-fontsize">2020 </div></div><i class="fas fa-chevron-right" style="margin : 10px 0 0 20px"></i> </h6></a>
+         </div>
+       </div>
+       </div>
+
+
+      <!--###############-->
+      <!-- Graph vizualisation -->
+      <!--###############-->
+
+      <div class=" shadow-sm my-class-graphic">
+
+         <!-- Input checkbox -->
+         <div class="my-class-radio">
+           <!-- Input checkbox  1-->
+            <div  class="checkbox_margin">
+                <input id="how-friend" name="how" type="radio">
+                <label for="how-friend" class="side-label my-label-checkbox">Current period <span class="my-class-label-months"> (September 2020)</span></label>
+            </div>
+           <!-- Input checkbox  2-->
+            <div>
+                <input id="how-friend2" name="how" type="radio">
+                <label for="how-friend2" class="side-label2 my-label-checkbox2">Current period <span class="my-class-label-months"> (September 2020)</span></label>
+            </div>
+         </div>
+
+         <!-- Graph -->
+         <div class="my-class-grahp-sous">
+           <div class="my-class-graph-sous2">
+
+             <!-- Graph canvas-->
+             <div id="piechart" style="width: 100% ; height: 340px"></div>
+             <!-- End Graph canvas-->
+
+             <!-- Line dashed-->
+             <div class="my-class-divider-dashed"></div>
+
+             <!-- Line Solid-->
+             <div class="my-class-divider-solid-graph">
+               <!-- Circle -->
+               <div class="my-claas-circle-block">
+                <img src="Ellipse.png" class="my-class-circle" width="10px">
+                <img src="Ellipse.png" class="my-class-circle2" width="10px">
+                <img src="Ellipse.png" class="my-class-circle2" width="10px">
+                <img src="Ellipse.png" class="my-class-circle3" width="10px">
+                <img src="Ellipse.png" class="my-class-circle4" width="10px">
+                <img src="Ellipse.png" class="my-class-circle5" width="10px">
+                <img src="Ellipse.png" class="my-class-circle6" width="10px">
+                <img src="Ellipse.png" class="my-class-circle7" width="10px">
+                <img src="Ellipse.png" class="my-class-circle8" width="10px">
+                <img src="Ellipse.png" class="my-class-circle9" width="10px">
+                <img src="Ellipse.png" class="my-class-circle10" width="10px">
+                <img src="Ellipse.png" class="my-class-circle11" width="10px">
+                <img src="Ellipse.png" class="my-class-circle12" width="10px">
+                <img src="Ellipse.png" class="my-class-circle13" width="10px">
+                <img src="Ellipse.png" class="my-class-circle14" width="10px">
+                <img src="Ellipse.png" class="my-class-circle15" width="10px">
+                <img src="Ellipse.png" class="my-class-circle16" width="10px">
+                <img src="Ellipse.png" class="my-class-circle17" width="10px">
+                <img src="Ellipse.png" class="my-class-circle18" width="10px">
+                <img src="Ellipse.png" class="my-class-circle19" width="10px">
+                <img src="Ellipse.png" class="my-class-circle20" width="10px">
+                <img src="Ellipse.png" class="my-class-circle21" width="10px">
+                <img src="Ellipse.png" class="my-class-circle22" width="10px">
+                <img src="Ellipse.png" class="my-class-circle23" width="10px">
+                <img src="Ellipse.png" class="my-class-circle24" width="10px">
+              </div>
+             </div>
+
+             <!-- Price 0€-->
+              <p class="my-class-graph-price">0€</p>
+
+             <!-- Month Graph-->
+             <div class="my-classe-date-graphe">
+              <ul class="nav">
+
+                <!-- Tue-->
+                <li class="nav-item"><a class="nav-link disabled" href="#"> <span class="my-font-weight">Tue</span> <br>01 Sep</a></li>
+
+                <!-- Thu-->
+                <li class="nav-item "><a class="nav-link disabled" href="#"><span class="my-font-weight">Thu</span> <br>03 Sep</a></li>
+
+                <!-- Sat-->
+                <li class="nav-item"><a class="nav-link  disabled " href="#"><span class="my-font-weight">Sat</span> <br>05 Sep</a></li>
+
+                <!-- Mon-->
+                <li class="nav-item"><a class="nav-link disabled" href="#" ><span class="my-font-weight">Mon</span> <br>07 Sep</a></li>
+
+                <!-- Wed-->
+                <li class="nav-item"><a class="nav-link disabled " href="#" ><span class="my-font-weight">Wed</span> <br>09 Sep</a></li>
+
+                <!-- Fri-->
+                <li class="nav-item"><a class="nav-link disabled " href="#" ><span class="my-font-weight">Fri</span> <br>11 Sep</a></li>
+
+                <!-- Sun-->
+                <li class="nav-item"><a class="nav-link disabled " href="#" ><span class="my-font-weight">Sun</span> <br>13 Sep</a></li>
+
+                <!-- Tue-->
+                <li class="nav-item"><a class="nav-link disabled " href="#" ><span class="my-font-weight">Tue</span> <br> 15 Sep </a></li>
+
+                <!-- Thu-->
+                <li class="nav-item"><a class="nav-link disabled" href="#" ><span class="my-font-weight">Thu</span> <br>17 Sep</a></li>
+
+                <!-- Sat-->
+                <li class="nav-item"><a class="nav-link disabled " href="#" ><span class="my-font-weight">Sat</span> <br>19 Sep</a></li>
+
+                <!-- Mon-->
+                <li class="nav-item"><a class="nav-link disabled " href="#" ><span class="my-font-weight">Mon</span> <br>21 Sep</a></li>
+
+                <!-- Wes-->
+                <li class="nav-item"><a class="nav-link disabled " href="#" ><span class="my-font-weight">Wes</span> <br>23 Sep</a></li>
+
+                <!-- Fri-->
+                <li class="nav-item"><a class="nav-link disabled" href="#" ><span class="my-font-weight">Fri</span> <br>25 Sep</a></li>
+
+                <!-- Sun-->
+                <li class="nav-item"><a class="nav-link disabled" href="#" ><span class="my-font-weight">Sun</span> <br>27 Sep</a></li>
+
+                <!-- Tue-->
+                <li class="nav-item"><a class="nav-link disabled" href="#" ><span class="my-font-weight">Tue</span> <br>27 Sep</a></li>
+
+
+              </ul>
+              </div>
+            </div>
+          </div>
+       </div>
+
+      <!--###############-->
+      <!-- Statistics -->
+      <!--###############-->
+
+      <div class=" my-class-statistic">
+
+        <!-- Statistics Title -->
+        <h3 class="ui header">Statistics</h3>
+
+        <!-- Statistics BLOCKS -->
+          <div class="my-class-statistic-card ">
+
+
+            <!-- Statistics BOCK 1 -->
+            <div class=" shadow-sm card  border-0 my-Statistics-block" >
+              <div class=" p-0 card-body">
+                <div>
+
+                  <!-- Statistics BOCK 1 sous 1-->
+                  <div class="m-2 p-0 d-flex justify-content-between my-class-card-stat">
+                      <p><span class="my-font-weight my-font-size-16">Revenue</span></p>
+                      <p class="my-card-p-top my-font-size-12">Transactions</p>
+                  </div>
+
+                  <div class="ui divider p-0 m-0"></div> <!-- DIVIDER-->
+
+                  <!-- Statistics BOCK 1 sous 2-->
+                  <div class="mr-2 ml-2 mt-3 mb-3 p-0 d-flex justify-content-between my-class-card-stat2">
+                      <p><span class="my-font-weight my-font-size-24">€5.00</span></p>
+                      <p><span class="my-card-p-top2 my-font-normal my-font-size-24">4</span></p>
+                  </div>
+
+                  <div class="ui divider p-0 m-0"></div> <!-- DIVIDER-->
+
+                  <!-- Statistics BOCK 1 sous 3-->
+                  <div class="m-2 p-0  my-class-card-stat2">
+                      <p class="block-stat-sous3-p" ><span class="my-font-weight my-font-size-16">Compared to last years</span></p>
+                      <div class="block-stat-sous3-sous1">
+                        <p><span class="my-font-transparent">€0.00</span></p>
+                        <p class="my-card-p-bottom">0</p>
+                      </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Statistics BOCK 2 -->
+            <div class=" shadow-sm card  border-0 my-Statistics-block ">
+              <div class=" p-0 card-body">
+                <div>
+
+                  <!-- Statistics BOCK 2 sous 1-->
+                  <div class="m-2 p-0 d-flex justify-content-between my-class-card-stat">
+                    <p><span class="my-font-weight tmy-font-size-16 ">Refunds</span></p>
+                    <p class="my-card-p-top my-font-size-12">Transactions</p>
+                  </div>
+
+                  <div class="ui divider p-0 m-0"></div><!-- DIVIDER-->
+
+                  <!-- Statistics BOCK 2 sous 2-->
+                  <div class="mr-2 ml-2 mt-3 mb-3 p-0 d-flex justify-content-between my-class-card-stat2">
+                    <p><span class="my-font-weight my-font-size-24 ">€0.00</span></p>
+                    <p><span class="my-card-p-top2 my-font-normal my-font-size-24">0</span></p>
+                  </div>
+
+                  <div class="ui divider p-0 m-0"></div><!-- DIVIDER-->
+
+                  <!-- Statistics BOCK 2 sous 3-->
+                  <div class="m-2 p-0  my-class-card-stat2">
+                     <p class="block-stat-sous3-p" ><span class="my-font-weight my-font-size-16">Compared to last years</span></p>
+                     <div class="block-stat-sous3-sous1">
+                      <p><span class="my-font-transparent">€0.00</span></p>
+                      <p class="my-card-p-bottom">0</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Statistics BOCK 3 -->
+            <div class=" shadow-sm card  border-0 my-Statistics-block">
+              <div class=" p-0 card-body">
+                <div>
+
+                  <!-- Statistics BOCK 3 sous 1-->
+                  <div class="m-2 p-0 d-flex justify-content-between my-class-card-stat">
+                    <p><span class="my-font-weight my-font-size-16">Chargebacks</span></p>
+                    <p class="my-card-p-top my-font-size-12">Transactions</p>
+                  </div>
+
+                  <div class="ui divider p-0 m-0"></div><!-- DIVIDER-->
+
+                  <!-- Statistics BOCK 3 sous 2-->
+                  <div class="mr-2 ml-2 mt-3 mb-3 p-0 d-flex justify-content-between my-class-card-stat2">
+                    <p><span class="my-font-weight my-font-size-24">€0.00</span></p>
+                    <p><span class="my-card-p-top2 my-font-normal my-font-size-24">0</span></p>
+                  </div>
+
+                  <div class="ui divider p-0 m-0"></div><!-- DIVIDER-->
+
+                  <!-- Statistics BOCK 3 sous 3-->
+                  <div class="m-2 p-0  my-class-card-stat2">
+                     <p class="block-stat-sous3-p" ><span class="my-font-weight my-font-size-16">Compared to last years</span></p>
+                     <div class="block-stat-sous3-sous1">
+                      <p><span class="my-font-transparent">€0.00</span></p>
+                      <p class="my-card-p-bottom">0</p>
+                     </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!--###############-->
+      <!-- Per Days -->
+      <!--###############-->
+
+      <div class="my-class-per-day">
+
+        <!-- Statistics Title -->
+      <h3 class="ui header">Per day</h3>
+
+        <!-- Per Day BLOCKS -->
+       <div class="my-card-table">
+        <div class=" shadow-sm card p-0 m-0 border-0">
+          <div class="card-body p-0 m-0 " style="position: relative">
+            <div class="my-class-table-colum" >
+              <div class="  my-class-divider-per-day"></div>
+              <div class="my-class-divider-per-day2"></div>
+              <div class="my-class-divider-per-day3"></div>
+
+              <!-- Per Day BLOCK DATE-->
+              <div class="my-class-colum-1item">
+                <div class="column">
+                  <p class="my-font-weight my-margin-bottom-perday">Date</p>
+                  <p class="my-margin-bottom-perday">Tue, 1 Sep 2020</p>
+                  <p class="my-margin-bottom-perday">Wes, 2 Sep 2020</p>
+                  <p>Thu, 3 Sep 2020</p>
+                </div>
+              </div>
+
+              <!-- Per Day BLOCK 1-->
+              <div class="my-class-colum-2item-block2">
+                <!-- Per Day BLOCK REVENUE-->
+                <div class="my-class-colum-2item-block2-sous1">
+                  <div class="column">
+                    <p class="my-font-weight my-margin-bottom-perday">Revenue</p>
+                    <p class=" my-font-weight my-margin-bottom-perday">€2.00</p>
+                    <p class=" my-font-weight my-margin-bottom-perday">€1.00</p>
+                    <p class=" my-font-weight my-margin-bottom-perday">€3.00</p>
+                  </div>
+                </div>
+
+                <!-- Per Day BLOCK TRANSACTIONS-->
+                <div class="my-class-colum-2item-block2-sous2">
+                  <div class="column">
+                    <p class=" my-margin-bottom-perday2">Transactions</p>
+                    <p class="my-margin-bottom-perday2">1</p>
+                    <p class="my-margin-bottom-perday2">1</p>
+                    <p class="my-margin-bottom-perday2">1</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Per Day BLOCK 2-->
+              <div class="my-class-colum-2item-block2">
+
+                <!-- Per Day BLOCK REFUNDS-->
+                <div class="my-class-colum-2item-block2-sous1">
+                  <div class="column">
+                    <p class="my-font-weight my-margin-bottom-perday">Refunds</p>
+                    <p class="my-margin-bottom-perday">€0.00</p>
+                    <p class="my-margin-bottom-perday">€0.00</p>
+                    <p class="my-margin-bottom-perday">€0.00</p>
+                  </div>
+                </div>
+
+                <!-- Per Day BLOCK TRANSACTIONS-->
+                <div class="my-class-colum-2item-block2-sous2">
+                  <div class="column">
+                    <p class="my-margin-bottom-perday2">Transactions</p>
+                    <p class="my-margin-bottom-perday2">0</p>
+                    <p class="my-margin-bottom-perday2">0</p>
+                    <p class="my-margin-bottom-perday2">0</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Per Day BLOCK 3-->
+              <div class="my-class-colum-2item-block2">
+
+                <!-- Per Day BLOCK CHARGEBACKS-->
+                <div class="my-class-colum-2item-block2-sous1">
+                  <div class="column">
+                    <p class="my-font-weight my-margin-bottom-perday">Chargebacks</p>
+                    <p class="my-margin-bottom-perday">€0.00</p>
+                    <p class="my-margin-bottom-perday">€0.00</p>
+                    <p class="my-margin-bottom-perday">€0.00</p>
+                  </div>
+                </div>
+
+                <!-- Per Day BLOCK TRANSACTIONS-->
+                <div class="my-class-colum-2item-block2-sous2">
+                  <div class="column">
+                    <p class="my-margin-bottom-perday2">Transactions</p>
+                    <p class="my-margin-bottom-perday2">0</p>
+                    <p class="my-margin-bottom-perday2">0</p>
+                    <p class="my-margin-bottom-perday2">0</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+  </article>
+  <!-- Main Page End -->
+</section>
+
+  <!-- SCIPT JAVASCRIPT  BOOTSTAP-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- SCIPT JAVASCRIPT GOOGLE CHART  -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+<script type="text/javascript">
+  // GOOGLE CHART JS
+
+  google.charts.load('current', {'packages':['linechart']});
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    var dataTable = new google.visualization.DataTable();
+
+    // COLUMN X AND Y
+    dataTable.addColumn('string', 'MONTHS');
+    dataTable.addColumn('number', 'Total');
+    dataTable.addColumn({'type': 'string', 'role': 'tooltip', 'p': {'html': true}});
+    // A column for custom tooltip content
+    dataTable.addRows([
+      ['Thursday, 3 September 2020', 2, '$600K in our first year!' ],
+      ['Thursday, 3 September 2020', 1, 'Sunspot activity made this our best year ever!'],
+      ['Saturday, 5 September 2020', 4, '$800K in 2012.'],
+      ['Mon', null, null, ],
+      ['Wed', null, null, ],
+      ['Fri', null, null, ],
+      ['Sun', null, null, ],
+      ['Tue', null, null, ],
+      ['Thu', null, null, ],
+      ['Sat', null, null, ],
+      ['Mon', null, null, ],
+      ['Wed', null, null, ],
+      ['Fri', null, null, ],
+      ['Sun', null, null,],
+      ['Tue', null, null, ],
+    ]);
+
+
+    //OPTION CHART
+    var options = {
+      baselineColor: 'transparent',
+      tooltip: {isHtml: true},
+      legend: 'none',
+      axisFontSize: 0,
+
+    };
+
+    // DROW THE CHART
+    var chart = new google.visualization.LineChart(document.getElementById('piechart'));
+    chart.draw(dataTable, options );
+  }
+</script>
+
+
+  <!-- JAVASCRIPT MONTHS MENUE  -->
+
+  <script>
+  $('.ui.dropdown').dropdown('show');
+
+  const buttonRight = document.getElementById('slideRight');
+  const buttonLeft = document.getElementById('slideLeft');
+
+  buttonRight.onclick = function () {
+    document.getElementById('container').scrollLeft += 1000;
+  };
+  buttonLeft.onclick = function () {
+    document.getElementById('container').scrollLeft -= 1000;
+  };
+</script>
+</body>
+</html>

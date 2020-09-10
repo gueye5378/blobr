@@ -1,0 +1,578 @@
+aside a
+{
+  text-decoration: none;
+}
+/* section */
+section
+{
+  width: 100%;
+  height: 100%;
+
+}
+
+
+/* Navigation sidebar */
+aside
+{
+  width: 17%;
+  height: 100%;
+  background-color:rgba(0,0,1,0.85);
+  position: relative;
+}
+.my-component-aside-title
+{
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+  padding: 20px 20px 10px 20px;
+}
+.my-component-dropdown
+{
+  position: absolute;
+  color: #1EBC30;
+  top: -9px;
+  width: 100%;
+}
+.my-class-aside-a
+{
+  color: white;
+}
+.my-class-aside-link
+{
+  width: 100%;
+  height: 30px;
+  background-color: red;
+}
+.my-component-menu-list
+{
+  color: white;
+}
+
+.my-component-menu-list-active
+{
+  background-color: #1076ff;
+}
+.my-component-menu-list a:hover
+{
+  background-color: rgba(195,195,195,0.08);
+}
+i
+{
+  margin-right: 10px;
+}
+
+/* Navigation sidebar */
+article
+{
+  width: 83%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.03);
+  overflow-x: scroll;
+ }
+
+.my-classe-menu1
+{
+  font-size: 12px;
+  border-radius: 10px;
+  width: auto;
+  background-color: white;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  margin-top: 40px;
+}
+.my-classe-menus
+{
+  width: 100%;
+  height: 170px;
+  position: relative;
+  padding: 20px;
+
+}
+.my-size
+{
+  font-size: 14px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.my-classe-menu2
+{
+
+  font-size: 13px;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  margin-top:98px ;
+}
+
+.my-class-nav-months-padding
+{
+  padding: 0 24px 0 24px
+}
+
+.my-classe-menu2 a
+{
+  text-align: center;
+}
+
+.my-font-weight
+{
+  font-weight: bold;
+  color: black;
+}
+.my-font-normal
+{
+  font-weight: normal;
+}
+.my-font-weight-active
+{
+  color: #0d71bb;
+  font-weight: bold;
+}
+
+.my-class-statistic{
+  width: 100%;
+  height: auto;
+  padding: 40px;
+
+}
+.my-class-statistic-card
+{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+.my-class-card-stat
+{
+  padding: 0;
+  height: 20px;
+}
+.my-class-card-stat2
+{
+  padding: 0;
+  height: 25px;
+}
+.my-card-p-top
+{
+  font-size: 15px;
+  color: rgba(0,0,0,0.42);
+}
+.my-card-p-top2
+{
+  font-size: 15px;
+
+  right: 20px;
+  font-weight: bold;
+  color: black;
+}
+.my-font-transparent
+{
+  font-size: 13px;;
+  color: rgba(0,0,0,0.42);
+}
+
+.my-card-p-bottom
+{
+  font-size: 13px;
+  color: rgba(0,0,0,0.42);
+
+}
+
+.my-class-per-day
+{
+  width: 100%;
+  padding: 40px;
+  height: auto;
+}
+.my-card-table
+{
+  width: 100%;
+  height: auto;
+}
+.my-class-table-colum
+{
+  display: flex;
+  width: 100%;
+  height: 210px;
+}
+.my-class-divider-per-day
+{
+width: 100%;
+  height: 0;
+  border-top: 1px solid #EBEBEB;
+  position: absolute;
+  top: 23%;
+}
+.my-class-divider-per-day2
+{
+  width: 100%;
+  height: 0;
+  border-top: 1px solid #EBEBEB;
+  position: absolute;
+  top: 50%;
+}
+.my-margin-bottom-perday2
+{
+  font-size: 12px;
+  margin-bottom: 35px;
+}
+.my-margin-bottom-perday
+{
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+.my-class-divider-per-day3
+{
+  width: 100%;
+  height: 0;
+  border-top: 1px solid #EBEBEB;
+  position: absolute;
+  top: 75%;
+}
+.my-class-colum-1item
+{
+  width: 22%;
+  height: 100%;
+}
+.my-class-colum-2item-block2
+{
+ margin-left: 10px;
+  width: 25%;
+  display: flex;
+}
+.my-class-colum-2item-block2-sous1
+{
+  width: 50%;
+  height: 100%;
+  text-align: right;
+}
+.my-class-colum-2item-block2-sous2
+{
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+.my-class-grahp-sous
+{
+  width: 85%;
+  height: 90%;
+  position: absolute;
+  right: 40px ;
+}
+.my-class-graph-sous2
+{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.my-class-graph-price
+{
+
+  font-size: 12px;
+  margin-left: 7px;
+  margin-top: 8px;
+}
+.my-class-graph-price1
+{
+  margin-bottom: 60px;
+  font-size: 13px;
+}
+.my-class-divider-dashed
+{
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+  width: 98%;
+  height: auto;
+  border: 1px dashed dodgerblue;
+  padding-left: 20px;
+}
+.my-class-divider-solid-graph
+ {
+   position: absolute;
+   left: 20px;
+    bottom: 100px;
+    width: 15%;
+   height: auto;
+   border: 1px solid dodgerblue;
+   padding-left: 20px;
+ }
+
+
+/*.my-class-whith-div
+{
+  width: 100%;
+  height: 7%;
+  background-color: white;
+  position: absolute;
+  bottom: 106px;
+}*/
+
+.my-claas-circle-block
+{
+  position: relative;
+  display: flex;
+
+}
+.my-class-circle
+{
+  position: absolute;
+top: -5px;  left: 170px;
+}
+.my-class-circle2
+{
+  position: absolute;
+top: -5px;  left: 200px;
+}
+.my-class-circle3
+{
+  position: absolute;
+top: -5px;  left: 230px;
+}
+.my-class-circle4
+{
+  position: absolute;
+top: -5px;top: -5px;  left: 260px;
+}
+.my-class-circle5
+{
+  position: absolute;
+top: -5px;top: -5px;  left: 290px;
+}
+.my-class-circle6
+{
+  position: absolute;
+top: -5px;top: -5px;  left: 320px;
+}
+.my-class-circle7
+{
+  position: absolute;
+top: -5px;top: -5px;  left: 350px;
+}
+.my-class-circle8
+{
+  position: absolute;
+top: -5px;top: -5px;  left: 380px;
+}
+.my-class-circle9
+{
+  position: absolute;
+top: -5px;top: -5px;  left: 410px;
+}
+.my-class-circle10
+{
+  position: absolute;
+top: -5px;top: -5px;  left: 440px;
+}
+.my-class-circle11
+{
+  position: absolute;
+top: -5px;top: -5px;  left: 470px;
+}
+.my-class-circle12
+{
+  position: absolute;
+top: -5px;top: -5px;  left: 500px;
+}
+.my-class-circle13
+{
+  position: absolute;
+top: -5px;  left: 530px;
+}
+.my-class-circle14
+{
+  position: absolute;
+top: -5px;  left: 560px;
+}
+.my-class-circle15
+{
+  position: absolute;
+top: -5px;  left: 590px;
+}
+.my-class-circle16
+{
+  position: absolute;
+top: -5px;  left: 620px;
+}
+.my-class-circle17
+{
+  position: absolute;
+top: -5px;  left: 650px;
+}
+.my-class-circle18
+{
+  position: absolute;
+top: -5px;  left: 680px;
+}
+.my-class-circle19
+{
+  position: absolute;
+top: -5px;  left: 710px;
+}
+.my-class-circle20
+{
+  position: absolute;
+top: -5px;  left: 740px;
+}
+.my-class-circle21
+{
+  position: absolute;
+top: -5px;  left: 770px;
+}
+.my-class-circle22
+{
+  position: absolute;
+top: -5px;  left: 800px;
+}
+.my-class-circle23
+{
+  position: absolute;
+  top: -5px;
+  left: 830px;
+}
+.my-class-circle24
+{
+  position: absolute;
+top: -5px;  left: 860px;
+}
+.my-classe-date-graphe
+{
+  width: auto;
+  font-size: 11px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 10px;
+  position: absolute;
+  left: -30px;
+  bottom: 35px;
+}
+.my-class-graph-price1
+{
+  font-size: 13px;
+}
+.my-class-years
+{
+  color: #4D4D4D;
+}
+.my-class-items
+{
+  padding-right: 34px;
+  padding-left: 34px;
+  padding-top: 10px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.side-label {
+  display: block;
+  position: relative;
+  margin: 10px 0;
+  padding-left: 35px;
+  cursor: pointer;
+}
+
+.side-label::before, .side-label::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+input[type="radio"] + .side-label::before,
+input[type="radio"] + .side-label::after {
+  border-radius: 50%;
+}
+
+.side-label::before {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #0071F2;
+  margin-top: 3.6px;
+}
+
+input:focus + .side-label::before {
+  border-color: #9ab593;
+}
+
+.side-label::after {
+  display: none;
+  width: 13px;
+  height: 13px;
+  margin-top: 4px   ;
+  background-color: #0071F2;
+}
+
+input:checked + .side-label::after {
+  display: block;
+}
+
+/*checkbox 2*/
+
+
+.side-label2 {
+  display: block;
+  position: relative;
+  margin: 10px 0;
+  padding-left: 35px;
+  cursor: pointer;
+}
+
+.side-label2::before, .side-label2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+input[type="radio"] + .side-label2::before,
+input[type="radio"] + .side-label2::after {
+  border-radius: 50%;
+}
+
+.side-label2::before {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #59BBFF;;
+  margin-top: 3.6px;
+}
+
+input:focus + .side-label2::before {
+  border-color: #9ab593;
+}
+
+.side-label2::after {
+  display: none;
+  width: 13px;
+  height: 13px;
+  margin-top: 4px   ;
+  background-color: #59BBFF;;
+}
+
+input:checked + .side-label2::after {
+  display: block;
+}
+
+.how-other-disclosure {
+  display: none;
+  margin: 10px 0 0 35px;
+}
+
+#how-other:checked ~ .how-other-disclosure {
+  display: block;
+}
+.my-class-radio
+{
+  width: 100%;
+  height: auto;
+  display:  flex;
+}
